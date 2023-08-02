@@ -1,2 +1,2 @@
 # teefortech.github.io
-![Teefortech Zone](image/assets/Teeprog.1.jpg)
+![Book logo](/least-github-pages/assets/logo.png)
