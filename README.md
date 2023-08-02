@@ -1,2 +1,2 @@
 # System Design
-![Teefortech Zone](/design/assets/Teeprog.1.jpg)
+![Teefortech Zone](/Teeprog.1.jpg)
