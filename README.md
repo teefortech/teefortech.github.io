@@ -1,2 +1,2 @@
 # teefortech.github.io
-![Teefortech Zone](/teefortech.github.io/assets/Teeprog.1.jpg)
+![Teefortech Zone](/assets/Teeprog.1.jpg)
