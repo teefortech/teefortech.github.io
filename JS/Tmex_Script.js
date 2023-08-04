@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <h2>I love Codingy</h2>
 <p id="demo">You asked if I do?.</p>
 
@@ -12,6 +11,5 @@ function myFunction() {
   document.getElementById("demo").innerHTML = "Yes of course, I do love coding";
 }
 </script>
-
 </body>
 </html> 
