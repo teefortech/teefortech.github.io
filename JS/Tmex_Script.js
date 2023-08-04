@@ -2,15 +2,14 @@
 <html>
 <body>
 
-<h2>Demo JavaScript in Body</h2>
+<h2>I love Codingy</h2>
+<p id="demo">You asked if I do?.</p>
 
-<p id="demo">A Paragraph.</p>
-
-<button type="button" onclick="myFunction()">Try it</button>
+<button type="button" onclick="myFunction()">Find out here</button>
 
 <script>
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
+  document.getElementById("demo").innerHTML = "Yes of course, I do love coding";
 }
 </script>
 
