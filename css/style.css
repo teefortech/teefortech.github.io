@@ -1,4 +1,119 @@
+ body {
+  margin: 100 0;
+  font-family: Arial, sans-serif;
+  background-color: #001015;
+  width: 100%;
+
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #009080;
+  padding: 5px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.sticky-header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  justify-content: left;
+}
+
+.sticky-header nav ul li {
+  margin: 0 15px;
+}
+
+.sticky-header nav ul li a {
+  text-decoration: flex;
+  color: #F0FFF0;
+  font-weight: bold;
+}
+
+.content {
+  padding: 50px 20px;
+  background-color: white;
+  /* Add more styling for your content */
+}
+h1{
+   color: #E9967A;
+   font-size: 4vw;
+   text-align: center;
+   font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+}
+
+p {
+   color: grey;
+   font-size: 2vw;
+   text-align: center;
+
+}
+
+</style>
+
+<!...Sidebar style...>
+<script>
+   window.addEventListener("scroll", function() {
+  const header = document.querySelector(".sticky-header");
+  if (window.scrollY > 0) {
+    header.classList.add("scrolled");
+  } else {
+    header.classList.remove("scrolled");
+  }
+});
+
+</script>
+
+
 <style>
+
+.sidenav {
+  height: 70vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #008080;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FF6347;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #D2B48C;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 5px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+<!... t4t style...>
 
 #search {
     padding: 5px;
@@ -52,7 +167,6 @@
     text-align: center;
     color: #4B0082;
 
-
 }
 
 #service {
@@ -105,61 +219,47 @@
     font-family: "Ubuntu", sans-serif;
     display: flex;
     justify-content: center;
-}
-</style>
-
-<style>
-body {
-  font-family: "Lato", sans-serif;
+    color: #EEE8AA;
 }
 
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #008080;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+    a:link {
+  background-color: none;
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #FF6347;
-  display: block;
-  transition: 0.3s;
+a:visited {
+  background-color: cyan;
 }
 
-.sidenav a:hover {
-  color: #D2B48C;
+a:hover {
+  background-color: #00FFFF;
 }
 
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+a:active {
+  background-color: hotpink;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
-</style>
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.0em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
 
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+  }
 
-
-
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+ul.posts li {
+    list-style: none;
 }
 
 html {
@@ -189,6 +289,7 @@ html {
   color: white;
 }
 
+
 .container {
   padding: 0 16px;
 }
@@ -209,7 +310,7 @@ html {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #006400;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -225,69 +326,3 @@ html {
     display: block;
   }
 }
-</style>
-
-
-<style>
-a:link {
-  background-color: none;
-}
-
-a:visited {
-  background-color: cyan;
-}
-
-a:hover {
-  background-color: lightgreen;
-}
-
-a:active {
-  background-color: hotpink;
-}
-
-body {
-    margin: 0px auto;
-    width: 98%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px; font-size: 1.5em;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-   text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-  }
-
-ul.posts li {
-    list-style: none;
-}
-
-</style>
-
