@@ -42,6 +42,7 @@
   background-color: white;
   /* Add more styling for your content */
 }
+
 h1{
    color: #E9967A;
    font-size: 4vw;
@@ -57,10 +58,6 @@ p {
 
 }
 
-</style>
-
-<!...Sidebar style...>
-<script>
    window.addEventListener("scroll", function() {
   const header = document.querySelector(".sticky-header");
   if (window.scrollY > 0) {
@@ -69,11 +66,6 @@ p {
     header.classList.remove("scrolled");
   }
 });
-
-</script>
-
-
-<style>
 
 .sidenav {
   height: 70vh;
@@ -113,9 +105,6 @@ p {
   .sidenav {padding-top: 5px;}
   .sidenav a {font-size: 18px;}
 }
-
-
-<!... t4t style...>
 
 #search {
     padding: 5px;
