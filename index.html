@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
     <title>TEEFORTECH</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="/css/style.css"><link rel="stylesheet"
-    	href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-	integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar background">
-        <ul class="nav-list">
-            <li><a href="/index">Home</a></li>
-	    <li><a href="/about">About</a></li>
-            <li><a href="/cv">CV</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-
-        <a href="https://twitter.com/teefortech?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @teefortech</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-	    <br>
+  <header class="sticky-header">
+    <nav>
+      <ul>
+        <li><a href="/index">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/cv">CV</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+      <br/>
     </nav>
-    
+
+
+
     <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="/about">About</a>
@@ -28,7 +30,7 @@
      <a href="/contact">Contact</a>
     </div>
 
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <span style="font-size:30px;cursor:pointer; color: #DB7093;" onclick="openNav()">&#9776;   Menu</span>
 
 <script>
 function openNav() {
@@ -39,109 +41,54 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-
-	<title>Bootstrap | Spinner</title>
-	<style>
-		h1 {
-			color: #E9967A;
-			text-align: center;
-		}
-		div {
-			margin-top: 10px;
-		}
-	</style>
-	<div class="container">
-		<h1>WELCOME TO TEEFORTECH</h1>
-		<!-- spinner-grow, #1 -->
-		<div class="spinner-grow text-primary" role="status">
-			<span class="sr-only">Loading</span>
-		</div>
-		<!-- spinner-grow, #2 -->
-		<div class="spinner-grow text-secondary" role="status">
-			<span class="sr-only">Loading</span>
-		</div>
-		<!-- spinner-grow, #3 -->
-		<div class="spinner-grow text-success" role="status">
-			<span class="sr-only">Loading</span>
-		</div>
-		<!-- spinner-grow, #4 -->
-		<div class="spinner-grow text-danger" role="status">
-			<span class="sr-only">Loading</span>
-		</div>
-		<!-- spinner-grow, #5 -->
-		<div class="spinner-grow text-warning" role="status">
-			<span class="sr-only">Loading</span>
-		</div>
-		<!-- spinner-grow, #6 -->
-		<div class="spinner-grow text-info" role="status">
-			<span class="sr-only">Loading</span>
-		</div>
-		<!-- spinner-grow, #7 -->
-		<div class="spinner-grow text-light" role="status">
-			<span class="sr-only">Loading</span>
-		</div>
-		<!-- spinner-grow, #8 -->
-		<div class="spinner-grow text-dark" role="status">
-			<span class="sr-only">Loading</span>
-		</div>
-        <div class="spinner-grow text-primary" role="status">
-			<span class="sr-only">Loading</span>
-		</div>
-		<!-- spinner-grow, #2 -->
-		<div class="spinner-grow text-secondary" role="status">
-			<span class="sr-only">Loading</span>
-		</div>
-		<!-- spinner-grow, #3 -->
-		<div class="spinner-grow text-success" role="status">
-			<span class="sr-only">Loading</span>
-		</div>
-        <div class="spinner-grow text-danger" role="status">
-			<span class="sr-only">Loading</span>
-		</div>
-		<!-- spinner-grow, #5 -->
-		<div class="spinner-grow text-warning" role="status">
-			<span class="sr-only">Loading</span>
-		</div>
-	</div>
-    <div class="about-section">
+<br/>
+    <br/>
+    <a href="https://twitter.com/teefortech?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @teefortech</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</header>
+  <div class="content">
         <h1>NWUZOR ANTHONY M.</h1>
         <p class="title">OR Analyst | Data Scientist | Software Dev | UI/UX Designer</p>
         <p><button class="button">_________________________</button></p>
     </div>
-    <div style="background-color:#191970;padding:15px;text-align:center;font-size:2vw;color:#E9967A">
-    <h1>TECH-ZONE</h1>
+    <div class="container"  style="background-color:#191970;padding:15px;text-align:center;font-size:5vw;color:#E9967A">
+    <h1>WELCOME TO TEEFORTECH-ZONE</h1>
     </div>
     <div style="position:relative;">
         <div style="opacity:0.5;position:absolute;left:50px;top:-30px;width:300px;height:150px;background-color:#40B3DF"></div>
         <div style="opacity:0.3;position:absolute;left:120px;top:20px;width:100px;height:170px;background-color:#73AD21"></div>
         <div style="margin-top:30px;width:360px;height:130px;padding:20px;border-radius:10px;border:10px solid #EE872A;font-size:120%;">
             <h1>TEEFORTECH</h1><br />
-            <div style="letter-spacing:12px;font-size:15px;position:relative;left:25px;top:25px;">ML Engineer</div><br>
-            <div style="color:#40B3DF;letter-spacing:12px;font-size:15px;position:relative;left:25px;top:30px;">Researcher,<br />
-                <span style="background-color:#B4009E;color:#ffffff;">UI/UX Designer</span></div>
+            <br/><br/><br/>
+            <h1>A Home For</h1>
+            <br/><br/>
+            <div style="letter-spacing:12px;font-size:15px;position:relative;left:25px;top:25px;">ML Engineers</div><br>
+            <div style="color:#40B3DF;letter-spacing:12px;font-size:15px;position:relative;left:25px;top:30px;">Researchers,<br />
+                <span style="background-color:#B4009E;color:#ffffff;">UI/UX Designers</span></div>
         </div>
     </div><br />
     <img src="Teeprog.1.jpg" alt="Teematech" style="width:100%"><div>
+        </div><hr>
         <div style="background-color: rgb(50, 20, 20); font-family: Times New Roman">
             </nav>
             </header><hr>
             <img src="Tee_tech_hr.jpg" alt="TeeCode" style="width:100%">
-            <div style="background-color: rgb(0, 10, 30); font-family: Times New Roman">
+            <div style="background-color: rgb(0, 10, 30); font-family: Times New Roman"><br/><hr>
+                <p>Now, it may interest you to know that <strong>Anthony</strong> is a tech-savvy who enjoy using advance techniques in solving real world problem.<br/>
+                    <br/> He's very open for collaborations and opportunities. You can always reach out.</p>
                 <div class="container">
                     <div class="blurb"><br/>
-                        <a href="/about">Read more about me...</a></p>
-                    </div><!-- /.blurb -->
-                </div><!-- /.container -->
-                <p2 style="text-align: left; font-size: 20px; color: white; font-family: Times New Roman">I'm very open for collaborations and opportunities. You can always reach out.</p2>
-    <footer>
-    	<ul style="text-align: center; font-size: 40px; background-color: orange; border: 3px solid powderblue;padding: 14px 25px;margin:180px; color: white; font-family: display: inline-block; Times New Roman">
-           <li><a href="mailto:nwuzoranthonym@gmail.com">EMAIL</a></li>
+                        <a href="/about">Read more about him...</a></p>
+                    </div>
+                </div>
+    	<ul style="text-align: center; font-size: 3vw; background-color: orange; border: 3px solid powderblue;padding: 14px 25px;margin:3px; color: white; font-family: display: inline-block; Times New Roman">
+           <li><a href="mailto:nwuzoranthonym@gmail.com">SEND MAIL</a></li>
              </ul>
-             	 <ul style="text-align: center; font-size: 40px; background-color: orange; color: white; border: 3px solid powderblue;padding: 14px 25px;margin:180px; font-family: display: inline-block; Times New Roman">
+             <br/>
+             	 <ul style="text-align: center; font-size: 3vw; background-color: orange; color: white; border: 3px solid powderblue;padding: 14px 25px;margin:3px; font-family: display: inline-block; Times New Roman">
         	<li><a href="https://github.com/teefortech">GITHUB</a></li>
         	</ul>
 	     <br/>
-	    <ul style="text-align: center; font-size: 40px; background-color: orange; color: white; border: 0.5vw solid powderblue;padding: 14px 25px;margin:180px; font-family: display: inline-block; Times New Roman">
+	    <ul style="text-align: center; font-size: 3vw; background-color: orange; color: white; border: 0.5vw solid powderblue;padding: 14px 25px;margin:3px; font-family: display: inline-block; Times New Roman">
            <li><a href="https://t.co/G3ZEBh2G0o">CONNECT</a></li>
         </ul>
 
@@ -150,7 +97,7 @@ function closeNav() {
       <div class="row">
           <div class="column">
               <div class="card">
-                  <img src="bg_3.jpg" alt="Mike" style="width:100%">
+                  <img src="bg_3.jpg" alt="Team_pic_1" style="width:100%">
                   <div class="container">
                       <h2>Teefortech</h2>
                       <p class="title">Data Analysis Session</p>
@@ -162,7 +109,7 @@ function closeNav() {
           </div>
       <div class="column">
           <div class="card">
-              <img src="bg_3.jpg" alt="Mike" style="width:100%">
+              <img src="bg_3.jpg" alt="Team_pic_1" style="width:100%">
               <div class="container">
                   <h2>Teefortech</h2>
                   <p class="title">Data Analysis Session</p>
@@ -175,7 +122,7 @@ function closeNav() {
 
 <div class="column">
     <div class="card">
-      <img src="bg_3.jpg" alt="Mike" style="width:100%">
+      <img src="bg_3.jpg" alt="Team_pic_1" style="width:100%">
       <div class="container">
         <h2>Teefortech</h2>
         <p class="title">Data Analysis Session</p>
@@ -225,8 +172,8 @@ function closeNav() {
                      alt= "color_image">
                 <br>
 
-                <p class="center" style="color: #FFEFD5;">Mail to Us</p>
-              <li><a href="mailto:nwuzoranthonym@gmail.com">teefortech@gmail.com</a></li>
+                <p class="center" style="color: #FFEFD5;">Send a Mail</p>
+              <a href="mailto:nwuzoranthonym@gmail.com">teefortech@gmail.com</a>
 
 
             </div>
@@ -249,12 +196,27 @@ function closeNav() {
     <p style="font-size: 15px; background-color: teal; color: #FFD700; text-align: fill"> Work in progress...........</p><br/ >
 <a href="https://twitter.com/teefortech?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @teefortech</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
    </section>
-
+ <nav>
+      <ul>
+        <a href="/index">Back to top</a>
+        <br/><br/><br/>
+        <li><a href="/index">Home</a></li><br/>
+        <li><a href="/about">About</a></li><br/>
+        <li><a href="/cv">CV</a></li><br/>
+        <li><a href="/contact">Contact</a></li><br/>
+      </ul>
+      <br/>
+    </nav>
     <footer class="background" style="background-color: grey">
         <p class="text-footer">
-            @ 2023 TEEFORTECH | All rights are reserved
+            @ 2023 N. M. TONY | All rights are reserved
         </p>
+         <p class="text-footer">
+             Designed by Teefortech
+        </p>
+
        <p class="text-footer"
     </footer>
 </body>
 </html>
+
