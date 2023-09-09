@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h2>I love Codingy</h2>
-<p id="demo">You asked if I do?.</p>
+  <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
 
-<button type="button" onclick="myFunction()">Find out here</button>
-
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Yes of course, I do love coding";
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+
 </body>
 </html> 
