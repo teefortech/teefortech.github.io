@@ -1,3 +1,5 @@
+<style>
+
  body {
   margin: 100 0;
   font-family: Arial, sans-serif;
@@ -40,7 +42,6 @@
   background-color: white;
   /* Add more styling for your content */
 }
-
 h1{
    color: #E9967A;
    font-size: 4vw;
@@ -327,3 +328,5 @@ html {
     display: block;
   }
 }
+
+</style>
